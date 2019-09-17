@@ -1,5 +1,5 @@
 # Add  code here!
-require "pry" 
+
 def prime?(n)
   i = 5 
   if n <= 1 
@@ -10,7 +10,6 @@ def prime?(n)
     return false 
   else 
     while i * i <= n 
-    binding.pry 
       if n % i == 0 || n % (i+2) == 0 
         return false 
       end 
