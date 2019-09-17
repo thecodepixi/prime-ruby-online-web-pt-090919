@@ -7,6 +7,7 @@ def prime?(n)
     return false 
   else 
     while i * i <= n 
+    if n%
   
   
 end 
