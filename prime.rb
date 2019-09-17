@@ -8,6 +8,7 @@ def prime?(n)
   else 
     while i * i <= n 
     if n % i = 0 || n % (i + 2) = 0 
+      return false 
   
   
 end 
